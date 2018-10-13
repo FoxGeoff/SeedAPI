@@ -13,4 +13,4 @@ In the previous section we created eight projects, but what are they for? Here i
 	* Services: A library to store all the business logic.
 	* Repositories: This is the only place where we call the database.
 
-	![GitHub Logo](wwwroot/images/ProjectArchitecture.png)
+	![GitHub Logo](/images/ProjectArchitecture.png)
