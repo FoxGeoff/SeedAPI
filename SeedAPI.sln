@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedAPI.Web.API", "SeedAPI.Web.API\SeedAPI.Web.API.csproj", "{DC4464CD-24F5-4E7E-A182-9D96604DCB2B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedAPI.ViewModels", "SeedAPI.ViewModels\SeedAPI.ViewModels.csproj", "{29D01979-5C7A-4ED5-919F-27E4666B895C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedAPI.Commons", "SeedAPI.Commons\SeedAPI.Commons.csproj", "{73AFEB9E-9F46-4E78-B3EE-095EAEB1D46E}"
@@ -20,6 +18,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedAPI.Services", "SeedAPI.Services\SeedAPI.Services.csproj", "{24556C3C-3EBD-4B6A-8FB5-18BC6A99FB71}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC0FA4B3-88CD-4995-8228-D0E0DF112B50}"
+	ProjectSection(SolutionItems) = preProject
+		SeedAPI.Web.API\readme.MD = SeedAPI.Web.API\readme.MD
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedAPI.Web.API", "SeedAPI.Web.API\SeedAPI.Web.API.csproj", "{A3FBB6DD-F29E-4D9B-A4A1-B49C56AEE512}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +30,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC4464CD-24F5-4E7E-A182-9D96604DCB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC4464CD-24F5-4E7E-A182-9D96604DCB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC4464CD-24F5-4E7E-A182-9D96604DCB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC4464CD-24F5-4E7E-A182-9D96604DCB2B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29D01979-5C7A-4ED5-919F-27E4666B895C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{29D01979-5C7A-4ED5-919F-27E4666B895C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29D01979-5C7A-4ED5-919F-27E4666B895C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,6 +58,10 @@ Global
 		{24556C3C-3EBD-4B6A-8FB5-18BC6A99FB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24556C3C-3EBD-4B6A-8FB5-18BC6A99FB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24556C3C-3EBD-4B6A-8FB5-18BC6A99FB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FBB6DD-F29E-4D9B-A4A1-B49C56AEE512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FBB6DD-F29E-4D9B-A4A1-B49C56AEE512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FBB6DD-F29E-4D9B-A4A1-B49C56AEE512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FBB6DD-F29E-4D9B-A4A1-B49C56AEE512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
